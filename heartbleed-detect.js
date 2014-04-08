@@ -15,7 +15,7 @@ function usage( errorMessage ) {
     }
     console.error("Usage: heartbleed-detect.js url1 [url2 ...]");
     console.error("    url1 ...: URLs to inspect");
-    console.error("\nExample: heartbleed-detect.js http://tycho.usno.navy.mil/ http://www.example.com/");
+    console.error("\nExample: heartbleed-detect.js http://www.example.com/");
 }
 
 function checkOpensslVersion( host ) {
